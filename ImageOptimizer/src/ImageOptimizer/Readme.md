@@ -49,3 +49,10 @@ Deploy function to AWS Lambda
     cd "ImageOptimizer/src/ImageOptimizer"
     dotnet lambda deploy-function
 ```
+
+
+dotnet new install Amazon.Lambda.Templates
+
+dotnet tool install --global Amazon.Lambda.Tools
+
+dotnet lambda deploy-function
